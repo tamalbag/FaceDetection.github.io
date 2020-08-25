@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Face recognition App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <center><h3>Face Detection application</h3></center>
+    
+      
+     
+    </nav>
+    
+    <div class="container">
+     
+      <video id="video" height="500" width="500" autoplay muted></video>
+      
+    </div>
+    <div class="result-container">
+      <div style="display: flex;">
+      <div id="emotion" style="padding: 10px;">Emotion</div>
+      <div id="gender" style="padding: 10px;">Gender</div>
+      </div>
+      
+      <div id="age">Age</div>
+    </div>
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+ 
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" >© 2020 Copyright:
+    <a href="https://tamalbag.github.io/profile.github.io/"> Tamal Bag</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    <script src="./js/face-api.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
